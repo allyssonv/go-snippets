@@ -1,0 +1,5 @@
+TARGETS = bootlogs motd killprocs ssh dbus single rc.local rmnologin
+INTERACTIVE =
+single: killprocs bootlogs motd
+rc.local: bootlogs motd ssh dbus
+rmnologin: bootlogs motd ssh dbus

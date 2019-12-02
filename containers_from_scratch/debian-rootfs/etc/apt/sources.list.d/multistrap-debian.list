@@ -1,0 +1,2 @@
+deb [arch=amd64] http://deb.debian.org/debian stable main contrib non-free
+deb-src http://deb.debian.org/debian stable main contrib non-free

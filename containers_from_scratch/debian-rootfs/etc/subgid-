@@ -1,0 +1,5 @@
+messagebus:100000:65536
+sshd:165536:65536
+systemd-timesync:231072:65536
+systemd-network:296608:65536
+systemd-resolve:362144:65536
